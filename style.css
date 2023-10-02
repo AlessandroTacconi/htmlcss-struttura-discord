@@ -15,7 +15,7 @@ DEBUG
 ----
 */
 .debug .top-header {
-  padding: 15px 200px;
+  padding: 15px 370px;
 }
 
 .debug .menu {
@@ -25,7 +25,7 @@ DEBUG
 
 .debug .bottom-header {
   background-color: #00008b;
-  padding: 20px;
+  padding: 50px;
 }
 
 .debug .viola {
@@ -35,9 +35,9 @@ DEBUG
 }
 
 .debug .box1 {
-  min-width: 1000px;
-  height: 500px;
-  padding: 50px 250px;
+  min-width: 1250px;
+  height: 520px;
+  padding: 50px;
 }
 
 .debug .photo1 {
@@ -46,9 +46,9 @@ DEBUG
 }
 
 .debug .box2 {
-  min-width: 1000px;
-  height: 500px;
-  padding: 50px 250px;
+  min-width: 1250px;
+  height: 520px;
+  padding: 50px;
 }
 
 .debug .photo2 {
@@ -67,12 +67,12 @@ DEBUG
 }
 
 .debug .bottom-main {
-  padding: 20px;
+  padding: 50px;
 }
 
 .debug .verde {
-  height: 930px;
-  width: 1200px;
+  height: 940px;
+  min-width: 1250px;
   border: 2px dashed black;
 }
 
@@ -89,6 +89,7 @@ HEADER
 .container-box {
   display: flex;
   justify-content: space-between;
+  align-content: center;
 }
 
 .menu {
@@ -138,6 +139,8 @@ MAIN
 
 .container-photo {
   display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .photo1 {
@@ -178,3 +181,50 @@ MAIN
 FOOTER
 ----
 */
+footer {
+  background-color: #23272a;
+}
+
+.hr2 {
+  height: 1px;
+  background-color: white;
+}
+
+.footer-section3 {
+  height: 100vh;
+}
+
+.box3 {
+  padding: 20px;
+  min-width: 1250px;
+  height: 660px;
+}
+
+.photo5 {
+  order: -1;
+  background-color: #f08080;
+  border: 2px dashed black;
+  width: 200px;
+}
+
+.photo6 {
+  background-color: #20b2aa;
+  border: 2px dashed white;
+  width: calc(100% / 4 - 200px);
+}
+
+.box4 {
+  padding-top: 30px;
+}
+
+.sfondo {
+  background-color: #7fffd4;
+  width: 900px;
+  height: 80px;
+}
+
+.fine {
+  border: 2px dashed black;
+  padding: 10px;
+  background-color: #ffb6c1;
+}
