@@ -1,0 +1,3 @@
+# esercizio struttura Discord
+
+#esercizio
