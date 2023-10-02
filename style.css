@@ -1,43 +1,180 @@
+/*
+----
+*****
+----
+*/
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
 
-.container {
+/*
+----
+DEBUG
+----
+*/
+.debug .top-header {
+  padding: 15px 200px;
+}
+
+.debug .menu {
+  border: 2px dashed black;
+  padding: 10px;
+}
+
+.debug .bottom-header {
+  background-color: #00008b;
+  padding: 20px;
+}
+
+.debug .viola {
+  border: 2px dashed black;
+  height: 410px;
+  width: 950px;
+}
+
+.debug .box1 {
+  min-width: 1000px;
+  height: 500px;
+  padding: 50px 250px;
+}
+
+.debug .photo1 {
+  border: 2px dashed black;
+  flex-grow: 1;
+}
+
+.debug .box2 {
+  min-width: 1000px;
+  height: 500px;
+  padding: 50px 250px;
+}
+
+.debug .photo2 {
+  width: 40%;
+  border: 2px dashed black;
+}
+
+.debug .photo3 {
+  border: 2px dashed black;
+  flex-grow: 1;
+}
+
+.debug .photo4 {
+  width: 40%;
+  border: 2px dashed black;
+}
+
+.debug .bottom-main {
+  padding: 20px;
+}
+
+.debug .verde {
+  height: 930px;
+  width: 1200px;
+  border: 2px dashed black;
+}
+
+/*
+----
+HEADER
+----
+*/
+
+.top-header {
+  background-color: #add8e6;
+}
+
+.container-box {
   display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: calc(100% / 3);
+  background-color: #daa520;
 }
 
 .layout {
   margin: 0 auto;
 }
 
-.top-header {
-  background-color: #add8e6;
-  padding: 18px 370px;
+.link {
+  text-align: center;
 }
 
-.menu {
-  border: 2px dashed black;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #daa520;
-  padding: 10px;
+.login {
+  text-align: end;
 }
 
 .bottom-header {
   background-color: #00008b;
-  padding: 20px;
 }
 
-.box1 {
-  border: 2px dashed black;
+.container-viola {
+  display: flex;
+  justify-content: center;
+}
+
+.viola {
   background-color: #ee82ee;
-  height: 410px;
-  width: 945px;
 }
 
 hr {
   background-color: #abd7e6;
   height: 5px;
 }
+
+/*
+----
+MAIN
+----
+*/
+
+.sec1 {
+  background-color: white;
+}
+
+.container-photo {
+  display: flex;
+}
+
+.photo1 {
+  background-color: #1e90ff;
+}
+
+.photo2 {
+  background-color: #ffc0cb;
+}
+
+.sec2 {
+  background-color: #d3d3d3;
+}
+
+.photo3 {
+  background-color: #1e90ff;
+}
+
+.photo4 {
+  order: -1;
+  background-color: #ffc0cb;
+}
+.bottom-main {
+  background-color: #d3d3d3;
+}
+
+.container-verde {
+  justify-content: center;
+  display: flex;
+}
+
+.verde {
+  background-color: #228b22;
+}
+
+/*
+----
+FOOTER
+----
+*/
