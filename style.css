@@ -3,3 +3,41 @@
   padding: 0px;
   box-sizing: border-box;
 }
+
+.container {
+  display: flex;
+}
+
+.layout {
+  margin: 0 auto;
+}
+
+.top-header {
+  background-color: #add8e6;
+  padding: 18px 370px;
+}
+
+.menu {
+  border: 2px dashed black;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #daa520;
+  padding: 10px;
+}
+
+.bottom-header {
+  background-color: #00008b;
+  padding: 20px;
+}
+
+.box1 {
+  border: 2px dashed black;
+  background-color: #ee82ee;
+  height: 410px;
+  width: 945px;
+}
+
+hr {
+  background-color: #abd7e6;
+  height: 5px;
+}
