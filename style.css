@@ -89,7 +89,7 @@ HEADER
 .container-box {
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: center;
 }
 
 .menu {
@@ -215,6 +215,7 @@ footer {
 
 .box4 {
   padding-top: 30px;
+  padding-left: 0px 370px;
 }
 
 .sfondo {
@@ -227,4 +228,15 @@ footer {
   border: 2px dashed black;
   padding: 10px;
   background-color: #ffb6c1;
+}
+
+.container-box2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.containersofndo {
+  display: flex;
+  justify-content: center;
 }
